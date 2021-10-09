@@ -6,7 +6,10 @@ public class Converter {
 	private double temperaturaFahrenheit;
 	private double temperaturaKelvin;
 	
-
+	public Converter(){
+	//Constructor padrão
+	}
+	
 	public Converter(double temperaturaCelsius, double temperaturaFhrenheit, double temperaturaKelvin) {
 		this.temperaturaCelsius = temperaturaCelsius;
 		this.temperaturaFahrenheit = temperaturaFhrenheit;
